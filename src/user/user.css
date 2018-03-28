@@ -1,0 +1,99 @@
+.user-module{
+	background-color: #eee;
+}
+
+.banner{
+	display: block;
+	width: 100%;
+}
+
+.topnav {
+	position: relative;
+	padding-left: 88px;
+	background-color: #fff;
+}
+
+.topnav .pic{
+	width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    top: -40px;
+}
+
+.topnav .pic img {
+	display: block;
+	width: 100%;
+}
+
+.navBar {
+	display: flex;
+	padding: .5rem 0;
+}
+
+.childDiv {
+	flex: 1;
+	font-size: 14px;
+	text-align: center;
+	-webkit-box-flex: 1;
+    border-right: 1px solid #e7e7e7;
+    padding-top: .3rem;
+}
+
+.childDiv:last-child {
+	border: 0;
+}
+
+.childDiv p {
+	margin: 0;
+	color: #051b28;
+}
+
+.allOrder, .other-menu {
+	display: flex;
+	background-color: #fff;
+	padding-top: .6rem;
+	padding-bottom: .6rem;
+	/*padding-left: 1rem;*/
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.allOrder .icon-all, .other-menu .icon {
+	width: 10%;
+}
+.allOrder .icon-all img, .other-menu .icon img {
+	position: relative;
+	top: 2px;
+}
+
+.allOrder .btn-desc {
+	width: 62%;
+	color: #051b28;
+}
+
+.allOrder .open-all {
+	width: 20%;
+	color: #999;
+	font-size: 12px;
+	text-align: right;
+}
+
+.other-menu .btn-desc {
+	width: 82%;
+	color: #051b28;
+}
+
+.allOrder .btn-more, .other-menu .btn-more {
+	width: 1%;
+}
+.allOrder .btn-more img, .other-menu .btn-more img {
+	width: 12px;
+}
+
+.othermenus {
+	margin-top: 14px;
+}
