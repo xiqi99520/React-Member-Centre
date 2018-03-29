@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 import App from './index/App';
 import User from './user/user';
+import Order from './allorder/order';
 
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
         <div>
             <Route exact path="/" component={App} />
             <Route  path="/user" component={User} />
+            <Route  path="/order" component={Order} />
         </div>
     </Router>,
     document.getElementById("root")
